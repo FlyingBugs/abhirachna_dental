@@ -24,12 +24,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/prashant_dep/w3.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
+		w3.includeHTML();
 	});
 </script>
 <!-- start-smoth-scrolling -->
@@ -51,30 +53,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
-	<div class="header">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html">Abhirachna Dental</a>
-			</div>
-			<div class="header-icons">
-				<ul>
-					<li><a href="#" class="facebook"> </a></li>
-					<li><a href="#" class="twitter"> </a></li>
-					<li><a href="#" class="in"> </a></li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+		<!--Code for header start-->
+			<div w3-include-html="header.html"></div>
+		<!--Code for header ends-->
 	<div class="header-bottom">
 		<div class="container">
-			<div class="header-bottom-right">
-				<ul>
-					<li class="mail"><a href="mailto:abhishekmaxfax@gmail.com">abhishekmaxfax@gmail.com</a></li>
-					<li class="phone"><span> </span></li>
-					<li class="num">+919873336929</li>
-				</ul>
-			</div>
+		<!--Top bar showing the email and phone number code start-->
+			<div w3-include-html="header_contact.html"></div>
+		<!--Top bar showing the email and phone number code ends-->
 			<div class="clearfix"> </div>
 		</div>
 	</div>
@@ -95,25 +81,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-						 <ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li class="active"><a href="gallery.html">Gallery</a></li>
-							<li><a href="cases.html">Cases</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						  </ul>
-						   <form class="navbar-form navbar-left" role="search">
-							<div class="form-group">
-							  <input type="text" class="form-control" placeholder="Type your text here...">
-							</div>
-							<button type="submit" class="btn btn-default searc" aria-label="Left Align">
-								<span> </span>
-							</button>
-						  </form>
-						</div><!-- /.navbar-collapse -->
+						<div w3-include-html="navigation_bar.html" id="bs-example-navbar-collapse-1_outer"></div>
+						<!-- /.navbar-collapse -->
 					</nav>
 			</div>
 		</div>
@@ -198,7 +167,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //gallery -->
-<!-- footer -->
+<!-- footer 
 	<div class="footer">
 		<div class="container">
 			<div class="footer-grids">

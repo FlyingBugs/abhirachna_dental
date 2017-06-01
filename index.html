@@ -48,6 +48,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+	<div class="header">
+		
+		<nav class="navbar navbar-inverse header m-b-0">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="color:#fff;font-weight:bold;font-size:25px;">Abhirachna Dental</a>
+    </div>
+    <!-- <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul> -->
+  </div>
+</nav>
+		
+	</div>
 <!-- //header -->
 <!-- banner -->
 	<div class="banner">
@@ -65,8 +82,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div w3-include-html="navigation_bar.html" ></div>
-						<!-- /.navbar-collapse -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						 <ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							
+							<li><a href="contact.html">Contact Us</a></li>
+						  </ul>
+						   <form class="navbar-form navbar-left" role="search" style="display:none;">
+							<div class="form-group">
+							  <input type="text" class="form-control" placeholder="Type your text here...">
+							</div>
+							<button type="submit" class="btn btn-default searc" aria-label="Left Align">
+								<span> </span>
+							</button>
+						  </form>
+						</div><!-- /.navbar-collapse -->
 					</nav>
 <!-- Slider-starts-Here -->
 				<script src="js/responsiveslides.min.js"></script>
@@ -91,30 +124,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				    });
 				  </script>
 			<!--//End-slider-script -->
-			<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
-				<ul class="rslides" id="slider3">
-					<li>
+			<div id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
+				<ul class="rslides callbacks callbacks1" id="slider3">
+					<li id="callbacks1_s0" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
 						<div class="banner-info">
 							<h1>Welcome to Abhirachna Dental Implant And Cosmetic Clinic. :)</h1>
 							<p>The dental professionals at this clinic are pleased to welcome you to our state of art dental facility equipped with modern technology including digital x-rays, intra oral camera and audio visual dental information system. All dental professionals are MDS specialists and we take pride in our quality of work. Above all we enjoy beautiful smiles of our patients!!</p>
 							<!-- <a href="single.html" class="hvr-shutter-out-horizontal">Read More</a> -->
 						</div>
 					</li>
-					<li>
+					<li id="callbacks1_s1" class="callbacks1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out;">
 						<div class="banner-info">
 							<h1>We love your smiles ;)</h1>
 							<p>We work with our patients so they can achieve and maintain a beautiful smile and healthier gums and teeth. We take the time with our patients to explain their treatment options and inform them of additional preventive care.</p>
 							<!-- <a href="single.html" class="hvr-shutter-out-horizontal">Read More</a> -->
 						</div>
 					</li>
-					<li>
+					<li id="callbacks1_s2" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
 						<div class="banner-info">
 							<h1>Best dental care center :D</h1>
 							<p>In a short period, Abhirachna Dental has established itself as one of best dental care center  in Delhi and NCR with a dedicated team of well qualified and experienced doctor with the latest technology and in house Digital OPG .We follow the best sterilization and infection control measures. The clinic is conveniently located in ground floor, South Extension Part 1, South Delhi .</p>
 							<!-- <a href="single.html" class="hvr-shutter-out-horizontal">Read More</a> -->
 						</div>
 					</li>
-				</ul>
+				</ul><ul class="callbacks_tabs callbacks1_tabs"><li class="callbacks1_s1"><a href="#" class="callbacks1_s1">1</a></li><li class="callbacks1_s2 callbacks_here"><a href="#" class="callbacks1_s2">2</a></li><li class="callbacks1_s3"><a href="#" class="callbacks1_s3">3</a></li></ul>
 			</div>	
 			</div>
 		</div>
@@ -124,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner-bottom">
 		<div class="container">
 			<div class="banner-bottom-grids">
-				<div class="banner-bottom-grid-left" style="outline: 1px  solid rgba(76, 194, 196, 0.81);height: 318px;">
+				<div class="banner-bottom-grid-left" style="">
 				
 					<div class="banner-bottom-grid-left-grid">
 						<a href="images/1.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
@@ -172,32 +205,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 				<div class="banner-bottom-grid-right">
 					<div class="banner-bottom-grid-right-grid" style="color:#fff;">
-						<h3 style="margin-top: -25px;">Contact Us</h3>
-					<strong style="margin-top: -20px;position: absolute;">Email</strong><br>
-					<div>
-						<a style="color:#fff;margin-top: -20px;position: absolute;" href="mailto:archana.sbhardwaj@gmail.com">							archana.sbhardwaj@gmail.com
-						</a>
-					</div><br>
-							<strong style="position: absolute;margin-left: 250px;margin-top: -70px;">Phone</strong><br>
-							<div style="position: absolute;margin-left: 250px;margin-top: -66px;">
-							+91 7488156670,+91 9308056390</div><br>
-							
+						<h3>Contact Us</h3>
+					
+					<div class="">
+						<p class="m-b-0"><strong>Email</strong></p>
+						<a href="mailto:archana.sbhardwaj@gmail.com" style="color:#fff;">archana.sbhardwaj@gmail.com</a>
+					</div>
+
+					<div class="">
+						<p class="m-b-0"><strong>Phone</strong></p>
+						<p class="m-b-0">+91 7488156670,+91 9308056390</p>
+					</div>
+					<div class="">
 						<form>
 							<input type="text" value="Name" onfocus="this.value = '';" 
 								onblur="if (this.value == '') {this.value = 	'Name';}" 
-								required="" style="position: absolute;margin-top: -60px;width: 500px;">
+								required="">
 								
 							<input type="email" value="Email" onfocus="this.value = '';" 
 								onblur="if (this.value == '') {this.value = 'Email';}" 
-								required="" style="position: absolute;/* margin-top: 0px; */width: 500px;">
+								required="">
 								
 							<input type="text" value="Phone" onfocus="this.value = '';" 
 								onblur="if (this.value == '') {this.value = 'Phone';}" 
-								required="" style="position: absolute;margin-top: 60px;width: 500px;">
+								required="">
 								
-							<input type="submit" value="Submit" style="position: absolute;margin-top: 120px;width: 100px;">
+							<input type="submit" value="Submit">
 							
 						</form>
+					</div>
 					</div>
 				</div>
 				<link rel="stylesheet" href="css/swipebox.css">
@@ -212,7 +248,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //banner-bottom -->
 <!-- banner-bottom-video -->
-	<div class="banner-bottom-video" style="margin-top: -50px;">
+	<div class="banner-bottom-video" >
 		<div class="container">
 			<div class="banner-bottom-video-grids">
 				<div class="banner-bottom-video-grid-left">
@@ -311,7 +347,7 @@ Fixed orthodontic treatment at our center with the option of ceramic,metal brace
 							<p><a href="#" class="btn atque btn-primary hvr-shutter-out-horizontal" role="button">Read More</a></p>
 						</div>
 					</div>
-					<div class="banner-bottom-video-grid-rgt" style="display:none;">
+					<div class="banner-bottom-video-grid-rgt">
 						<ul>
 							<li><a href="#">Smile Designing</a></li>
 							<li><a href="#">Root Canal Treatment</a></li>
@@ -367,7 +403,7 @@ Fixed orthodontic treatment at our center with the option of ceramic,metal brace
 	</div>
 <!-- //featured-services -->
 <!-- view -->
-	<div class="view" style="margin-top: -100px;">
+	<div class="view">
 		<div class="container">
 			<div class="view-left">
 				<p><span>Dedicated to Dental Excellence</span>
@@ -377,15 +413,20 @@ Fixed orthodontic treatment at our center with the option of ceramic,metal brace
 <p>We work with our patients so they can achieve and maintain a beautiful smile and healthier gums and teeth. We take the time with our patients to explain their treatment options and inform them of additional preventive care. Our web site also provides you with background about our <strong>dentist</strong>, staff, office hours, , maps, directions to our office in <strong>South Extension, New Delhi</strong> and other useful information. We know how hectic life can be and are committed to making our clinic convenient and accessible. And we want you to feel confident that when you choose our clinic, you're working with dentists and other professionals who are qualified, experienced and caring. &nbsp;<strong>Be sure to visit our service&nbsp;page to see all of our services including scaling, root canal treatment, smile designing, dental implant, tooth braces, and Zirconia brown and bridges etc.&nbsp;</strong></p>
 <p>In a short period, Abhirachna Dental has established itself as one of best dental care center &nbsp;in Delhi and NCR with a dedicated team of well qualified and experienced doctor with the latest technology and in house Digital OPG .We follow the best sterilization and infection control measures. <strong>The clinic is conveniently located in ground floor, South Extension Part 1, South Delhi</strong> .</p>
 </div>
+<div class="view-right">
+				<div><img src="images/center.jpg" class="img-circle"  width="300" height="300"></div>
+				
+			</div>
+				<div class="view-right text-right">
+				
+				<a href="#" class="btn atque btn-primary hvr-shutter-out-horizontal" role="button">Read More</a>
+			</div>
+			</div>
 
-				</p>
-			</div>
-			<div class="view-right">
-				<a href="#" class="btn atque btn-primary hvr-shutter-out-horizontal" role="button">Read More</a></p>
-			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
+
 <!-- //view -->
 <!-- map -->
 <div w3-include-html="map.html"></div>

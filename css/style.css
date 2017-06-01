@@ -29,7 +29,7 @@ body a:hover{
 }
 /*-- header --*/ 
 .header{
-	padding:2em 0;
+
 	background:#4cc2c4;
 }
 .logo{
@@ -503,12 +503,11 @@ ul.social-slide li i.mac{
 	float:left;
 	width:60%;
 }
-.banner-bottom-grid-right{
+.banner-bottom-grid-right {
     position: absolute;
-    top: 0px;
-    right: 110px;
-    width: 565px;
-    height: 90px !important;
+    top: -85%;
+    right: 14%;
+    width: 28.8%;
 }
 .banner-bottom-grid-left-grid{
 	float:left;
@@ -530,7 +529,6 @@ ul.social-slide li i.mac{
 .banner-bottom-grid-right-grid{
 	background:rgba(76, 194, 196, 0.81);
 	padding:2em;
-	height: 320px;
 }
 .banner-bottom-grid-right-grid input[type="text"],.banner-bottom-grid-right-grid input[type="email"]{
 	border:1px solid #f4f4f4;
@@ -2602,3 +2600,6 @@ ul.sint {
 	  margin: 1.5em 0 1.5em;
 	}
 }
+
+.p-0{padding:0px;}
+.m-b-0{margin:0px!important;}
